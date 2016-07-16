@@ -1,0 +1,9 @@
+language: java
+script: gradle test
+
+notifications: # set notification options
+  email:
+    recipients:
+    - 990479306@qq.com
+    on_success: change
+    on_failure: always
