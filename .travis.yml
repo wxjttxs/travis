@@ -7,6 +7,6 @@ before_install:
 notifications: # set notification options
   email:
     recipients:
-    - 990479306@qq.com
+    - xiaojingw2016@163.com
     on_success: change
     on_failure: always
