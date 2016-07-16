@@ -1,6 +1,9 @@
 language: java
 script: gradle test
 
+before_install:
+  chmod +x gradlew
+
 notifications: # set notification options
   email:
     recipients:
